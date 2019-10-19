@@ -2,8 +2,8 @@
 #include "yeelight.h"
 #include <ArduinoJson.h>
 
-const char* ssid = "VodafoneCasaBelfiore";
-const char* password =  "potus100";
+const char* ssid = "***";
+const char* password =  "***";
 
 
 const int button = 12;
