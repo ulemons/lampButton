@@ -62,10 +62,10 @@ void loop() {
         Serial.println(getLocation());
 
     if (!isPowered()) {
-      Serial.println(sendCommand("set_power", "[\"on\", \"smooth\", 150]"));
+      Serial.println(sendCommand("set_power", "[\"on\", \"smooth\", 50]"));
       Serial.println("command on");
     } else {
-      Serial.println(sendCommand("set_power", "[\"off\", \"smooth\", 150]"));
+      Serial.println(sendCommand("set_power", "[\"off\", \"smooth\", 50]"));
       Serial.println("command off");
       }
 
@@ -80,7 +80,7 @@ void loop() {
               lookup();
 
   
-      delay(200);
+//      delay(200);
   }
 }
 
